@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>second</title>
+</head>
+<body>
+    <img id = "image" src="babypicture.png" height = 500>
+    <button onclick="changeimage()">See Something new</button>
+    <button onclick="retunimage()">go back</button>
+
+    <script>
+        function changeimage ()
+        {
+            image.src = 'currentpicture.png';
+        }
+        function retunimage () {
+            image.src = 'babypicture.png';
+        }
+    </script>
+
+</body>
+</html>
